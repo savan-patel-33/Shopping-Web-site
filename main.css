@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #323232;
+}
+
+.navbar-brand {
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link:hover {
+    background-color: #383838;
+    color: white!important;
+    border-radius: 10px;
+}
+
+.search-bar{
+    margin-left: 60px;
+}
+
+.form-control:focus{
+    border-color: 1px solid #ced4da!important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25)!important;
+}
+
+.cart-symbole {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+}
+
+.cart {
+    text-decoration: none;
+}
+
+.fa-cart-shopping {
+    color: rgb(38, 38, 38);
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: gray !important;
+    border: 1px solid transparent !important;
+    border-radius: 10px !important;
+    transition: .3s !important;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.offers-img img {
+    display: flex;
+    max-width: 250px;
+    height: auto;
+    position: absolute;
+    right: 50%;
+    transform: translateX(-70%);
+}
+
+.details {
+    margin: 50px 0px;
+}
+
+.details-img img {
+    display: flex;
+    max-width: 250px;
+    height: auto;
+    position: absolute;
+    right: 20%;
+    transform: translateY(-50%);
+}
+
+.arrival-details{
+    margin-top: 100px!important;
+}
+
+.arrival-details p{
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+
+.arrival-details li{
+    margin-left: 200px;
+}
+
+.arrival-img{
+    margin-top: 180px!important;
+}
+
+
+
+.custom-footer {
+    background-color: black;
+}
+
+.cr_main_section .cr_contact_sec .row {
+    padding: 52px;
+    margin: auto;
+}
+
+.cr_main_section {
+    background-color: black;
+    margin: 58px auto;
+    margin-bottom: 20px !important;
+}
+
+.cr_main_section>.cr_contact_sec {
+    margin: 28px auto;
+    background-color: white !important;
+    color: black !important;
+    text-align: center !important;
+    font-family: sans-serif;
+}
+
+.cr_contact_sec .fa-clock-o {
+    font-size: 22px;
+    padding-right: 2px;
+}
+
+.cr_main_section .cr_contact_sec .row .col-md-3 {
+    padding: 20px;
+    text-align: left !important;
+}
+
+.cr_main_section .cr_contact_sec .fa-mobile {
+    font-size: 29px;
+}
+
+.cr_main_section .cr_contact_sec .fa-whatsapp {
+    font-size: 18px;
+}
+
+.cr_main_section .cr_contact_sec .fa-map-marker {
+    font-size: 18px;
+}
+
+.policies>a {
+    text-decoration: none;
+    color: black;
+}
+
+.policies>a:hover {
+    color: blue;
+}
+
+.about-us>a {
+    text-decoration: none;
+    color: black;
+}
+
+.about-us>a:hover {
+    color: blue;
+}
+
+.brand-card{
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.card-img-top{
+    max-width: 150px;
+}
+
+
+
+
+@media (max-width: 1400px) {
+    .arrival-details p{
+        margin-bottom: 50px;
+        margin-left: 150px;
+    }
+    
+    .arrival-details li{
+        margin-left: 150px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .arrival-details p{
+        margin-bottom: 50px;
+        margin-left: 70px;
+    }
+    
+    .arrival-details li{
+        margin-left: 70px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .card {
+        max-width: 12rem;
+    }
+
+    .offers-img img {
+        display: flex;
+        max-width: 200px;
+        height: auto;
+        position: absolute;
+        right: 50%;
+        transform: translateX(-50%);
+    }
+
+    .details {
+        margin: auto;
+    }
+
+    .details-img img {
+        display: flex;
+        max-width: 200px;
+        height: auto;
+        position: absolute;
+        right: 20%;
+        transform: translateY(-50%);
+    }
+
+    .cr_main_section .cr_contact_sec .row {
+        padding: 0px;
+    }
+
+    .arrival-details p{
+        margin-bottom: 50px;
+        margin-left: 40px;
+    }
+    
+    .arrival-details li{
+        margin-left: 40px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        display: flex;
+        max-width: 25rem;
+    }
+
+    .offers-details {
+        display: block !important;
+    }
+
+    .offers-img img {
+        display: block;
+        max-width: 250px;
+        height: auto;
+        position: absolute;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .details {
+        margin: auto;
+        display: block;
+        position: relative;
+        top: 270px;
+        text-align: -webkit-center;
+    }
+
+    .three-card-sec {
+        display: block !important;
+        justify-content: center;
+    }
+
+    .cr_main_section {
+        background-color: black;
+        margin: 300px auto;
+        margin-bottom: 20px !important;
+        text-align: center!important;
+    }
+    
+    .cr_contact_sec{
+    }
+}
+
+
+@media (max-width: 426px) {
+    .card {
+        margin: 0px auto;
+    }
+
+    .offers-img img {
+        display: flex;
+        max-width: 200px;
+        height: auto;
+        position: static;
+        transform: translateX(50%);
+    }
+
+    .details{
+        top: 0;
+    }
+
+    .details li {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .details p {
+        text-align: center;
+        margin: auto;
+    }
+
+    .cr_main_section{
+        margin: 0;
+    }
+}
+
+@media (max-width: 376px) {
+    .offers-img img {
+        display: flex;
+        max-width: 200px;
+        height: auto;
+        position: static;
+        transform: translateX(36%);
+    }
+}
+
+@media (max-width: 321px) {
+    .offers-img img {
+        display: flex;
+        max-width: 200px;
+        height: auto;
+        position: static;
+        transform: translateX(25%);
+    }
+}
